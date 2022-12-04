@@ -17,7 +17,7 @@ It should be possible to:
 
 ## FrontEnd
 
-**Task listing and management [Port 3000]**
+**[Port 3000] Task listing and management**
 - `Checkbox` : Complete the task or not
 - `"+"` button: Add Row
 - `"S"` button: Save Row
