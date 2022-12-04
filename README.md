@@ -18,41 +18,32 @@ It should be possible to:
 ## FrontEnd
 
 **Task listing and management [Port 3000]**
-
-Function of Buttons:
-- Checkbox : Complete the task or not
-- "+" button: Add Row
-- "S" button: Save Row
-- "X" button: Delete Row
-
+- `Checkbox` : Complete the task or not
+- `"+"` button: Add Row
+- `"S"` button: Save Row
+- `"X"` button: Delete Row
 
 ## Commands:
 ```sh
 "start": "react-scripts start"
-
 "build": "react-scripts build"
-
 "test": "react-scripts test"
-
 "eject": "react-scripts eject"
 ```
-
 
 ## BackEnd
 **[Port: 3001] The other project build with node.js**
 
-
 ## Features
-- '/' : For Testing Only, check server is started.
-- '/get_all_items': Get all items data from database by GET Method.
-- '/update_all_items': Post JSON format data to update database by POST Method.
-- '/delete_item': Post element id to delete the record by POST Method.
-- '/sendEmail': Post email details to backend to send email by POST Method.
-
+- `'/'` : For Testing Only, check server is started.
+- `'/get_all_items'`: Get all items data from database by GET Method.
+- `'/update_all_items'`: Post JSON format data to update database by POST Method.
+- `'/delete_item'`: Post element id to delete the record by POST Method.
+- `'/sendEmail'`: Post email details to backend to send email by POST Method.
 
 ## Commands:
 ```sh
 "start": "node app.js",
-
 "dev": "nodemon app.js"
 ```
+
